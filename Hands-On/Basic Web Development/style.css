@@ -1,0 +1,62 @@
+/* Gaya dasar */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container utama */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  text-align: center;
+}
+
+.header img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+/* Section */
+.section {
+  margin-bottom: 20px;
+}
+
+/* Pengalaman */
+.experience {
+  margin-bottom: 10px;
+}
+
+/* Formulir kontak */
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact {
+    position: relative;
+  }
+  
+  .contact button {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: black !important;
+    border-radius: 5px;
+    bottom: -40px;
+    right: 0px; 
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
